@@ -1,14 +1,25 @@
-# PyPower Project - Emotion Detection using AI
+# 😄 Real-Time Emotion Detection with Deep Learning 🧠🎥
 
-## Emotion Detection
+> A computer vision project that detects human emotions in real-time using a webcam feed and a CNN model trained on the FER-2013 dataset.  
+> Built with **Keras**, **OpenCV**, and **MobileNet**, this project recognizes five core emotions: **Angry**, **Happy**, **Neutral**, **Sad**, and **Surprise**.
 
-- Kaggle Dataset :- https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data.
+---
+## 🧠 Features
 
-- Use train.py file to train the model.
+- 🔎 Face detection using Haar cascades  
+- 🎭 Real-time facial emotion recognition  
+- 🧱 Model trained on FER-2013 dataset using MobileNet  
+- 🧪 Works on live webcam feed
 
-- Change the number of classes according to you.
+---
 
-- Do Experiment with different pre-trained models.
+## 🛠 Tech Stack
 
-- Execute the test.py file to run the Emotion Detection.
+| Component        | Tools Used               |
+|------------------|--------------------------|
+| Language         | Python 🐍                |
+| DL Framework     | Keras + TensorFlow 🧠    |
+| Image Handling   | OpenCV, NumPy 📷         |
+| Model Architecture | MobileNet + Custom Head 🏗️ |
+| Dataset          | FER-2013 🧑📊            |
 
